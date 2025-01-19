@@ -13,7 +13,7 @@ public class Consulta {
 
 	public String buscaConversion(String monedaBase, String monedaObjetivo, double cantidad) {
 		try {
-			URI direccion = URI.create("https://v6.exchangerate-api.com/v6/5218c5b28a23cd05b9b2466b/pair/" +
+			URI direccion = URI.create("https://v6.exchangerate-api.com/v6/6e79f135434c3821dcee4043/pair/" +
 					monedaBase + "/" + monedaObjetivo + "/" + cantidad);
 
 			HttpClient client = HttpClient.newHttpClient();
